@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap">
+  <script src="./script.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <h1><a href="#" class="logo-link">Instagram</a></h1>
+      <a href="#" class="logo"><img src="./img/icons/camera.svg" alt="Logo"></a>
+    </div>
+    <div class="sidebar-center">
+      <div class="menu">
+        <img src="./img/icons/startseite.svg" alt="Startseite" />
+        <p>Startseite</p>
+      </div>
+      <div class="menu">
+        <img src="./img/icons/suche.svg" alt="Suche" />
+        <p>Suche</p>
+      </div>
+      <div class="menu">
+        <img src="./img/icons/entdecken.svg" alt="Entdecken" />
+        <p>Entdecken</p>
+      </div>
+      <div class="menu">
+        <img src="./img/icons/reels.svg" alt="Reels" />
+        <p>Reels</p>
+      </div>
+      <div class="menu">
+        <img src="./img/icons/nachrichten.svg" alt="Nachrichten" />
+        <p>Nachrichten</p>
+      </div>
+      <div class="menu">
+        <img src="./img/icons/benachrichtigung.svg" alt="Benachrichtigung" />
+        <p>Benachrichtigung</p>
+      </div>
+      <div class="menu">
+        <img src="./img/icons/erstellen.svg" alt="Erstellen" />
+        <p>Erstellen</p>
+      </div>
+      <div class="menu">
+        <img src="./img/icons/profil.svg" alt="Profil" />
+        <p>Profil</p>
+      </div>
+    </div>
+    <div class="sidebar-bottom">
+      <img src="./img/icons/mehr.svg" alt="Mehr" />
+      <p>Mehr</p>
+    </div>
+  </aside>
+
+
+  <aside class="mobile-bar">
+    <div class="top-bar">
+      <div class="left">Für dich</div>
+      <div class="right">
+          <input type="text" placeholder="Suche...">
+          <img src="./img/icons/benachrichtigung.svg" alt="Like">
+      </div>
+  </div>
+
+  <div class="bottom-bar">
+    <img src="./img/icons/startseite.svg" alt="Icon 1">
+    <img src="./img/icons/entdecken.svg" alt="Icon 2">
+    <img src="./img/icons/reels.svg" alt="Icon 3">
+    <img src="./img/icons/erstellen.svg" alt="Icon 4">
+    <img src="./img/icons/nachrichten.svg" alt="Icon 5">
+    <img src="./img/icons/profil.svg" alt="Icon 6">
+</div>
+
+  </aside>
+
+  <div class="main">
+    <section class="stories-and-main-content">
+      <section class="main-content-section">
+        <div class="story">
+          <div class="story-foryou">
+            <b>Für Dich</b>
+            <b>Gefolgt</b>
+          </div>
+          <div class="story-line"></div>
+          <div class="story-post">
+            <div class="story-post-user">
+              <img src="./img/profil/user(1).jpg" alt="User1" />
+              <p>User1</p>
+            </div>
+            <div class="story-post-user">
+              <img src="./img/profil/user(2).jpg" alt="User2" />
+              <p>User2</p>
+            </div>
+            <div class="story-post-user">
+              <img src="./img/profil/user(3).jpg" alt="User3" />
+              <p>User3</p>
+            </div>
+            <div class="story-post-user">
+              <img src="./img/profil/user(4).jpg" alt="User4" />
+              <p>User4</p>
+            </div>
+          </div>
+
+          <!-- Main content start -->
+          <article class="main-content">
+            <header class="header-content">
+              <div class="header-content-info">
+                <img src="./img/profil/paul-profile.jpg" alt="Paul Gross" />
+                <div class="header-content-info-names">
+                  <p><b>Paul Gross</b></p>
+                  <p class="post-date">30. Juni 2024</p>
+                </div>
+              </div>
+              <div class="header-content-icon">
+                <img src="./img/icons/optionen.svg" alt="Optionen" />
+              </div>
+            </header>
+            <div class="image-content">
+              <img src="./img/post/nightcity(1).jpg" alt="Night City" />
+            </div>
+            <div class="optionen-content">
+              <div>
+                <img src="./img/icons/benachrichtigung.svg" alt="Benachrichtigung" />
+                <img src="./img/icons/chat.svg" alt="Chat" />
+                <img src="./img/icons/nachrichten.svg" alt="Nachrichten" />
+              </div>
+              <img src="./img/icons/speichern.svg" alt="Speichern" />
+            </div>
+            <div class="likenumber-content">
+              <p><b>Gefällt 999.999 Mal</b></p>
+            </div>
+            <div class="commentbox-content">
+              <p><b>User1:</b> Du bist der beste Programmierer der Welt</p>
+            </div>
+            <div class="commentinput-content">
+              <input
+                type="text"
+                name="comment"
+                placeholder="Kommentieren ..."
+              />
+              <button>Posten</button>
+            </div>
+            <div class="post-line"></div>
+          </article>
+          <!-- Main content end -->
+        </section>
+
+        <section class="profile-and-suggestions">
+          <div class="profil">
+            <div class="profil-info">
+              <img src="./img/profil/paul-profile.jpg" alt="Paul Gross" />
+              <div class="profil-info-name">
+                <p><b>Username</b></p>
+                <p>Paul Gross</p>
+              </div>
+            </div>
+            <p class="profil-switch">Wechseln</p>
+          </div>
+          <div class="suggestion-text">
+            <b>Vorschläge für dich</b>
+            <b>Alle ansehen</b>
+          </div>
+          <div class="suggestion-box">
+            <div class="profil">
+              <div class="profil-info">
+                <img src="./img/profil/user(1).jpg" alt="User1" />
+                <div class="profil-info-name">
+                  <p><b>User1</b></p>
+                  <p>Vorschläge für dich</p>
+                </div>
+              </div>
+              <p class="profil-switch">Folgen</p>
+            </div>
+            <div class="profil">
+              <div class="profil-info">
+                <img src="./img/profil/user(2).jpg" alt="User2" />
+                <div class="profil-info-name">
+                  <p><b>User2</b></p>
+                  <p>Vorschläge für dich</p>
+                </div>
+              </div>
+              <p class="profil-switch">Folgen</p>
+            </div>
+            <div class="profil">
+              <div class="profil-info">
+                <img src="./img/profil/user(3).jpg" alt="User3" />
+                <div class="profil-info-name">
+                  <p><b>User3</b></p>
+                  <p>Vorschläge für dich</p>
+                </div>
+              </div>
+              <p class="profil-switch">Folgen</p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
